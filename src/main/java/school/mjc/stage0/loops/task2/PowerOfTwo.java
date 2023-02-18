@@ -12,5 +12,8 @@ public class PowerOfTwo {
             }
             counterPower++;
         }
+        if (power < 0) {
+            System.out.println("too much power");
+        }
     }
 }
